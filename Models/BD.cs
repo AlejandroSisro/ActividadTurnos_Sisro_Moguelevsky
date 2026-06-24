@@ -6,8 +6,7 @@ using TurnosPeluqueria_EJ06.Models;
 
 public static class BD
 {
-    private static string _connectionString =
-        @"";
+    private string_connectionString = @"Server=localhost; DataBase=TurnosDB; IntegratedSecurity=True; TrustServerCertificate=True;";
 
     public static List<Turno> ObtenerTurnos()
     {
